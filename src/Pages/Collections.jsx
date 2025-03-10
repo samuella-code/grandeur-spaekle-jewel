@@ -7,7 +7,7 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/react";
-
+import AppLayout from "../Components/layouts/AppLayout";
 import {
   ChevronDownIcon,
   FunnelIcon,
