@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   base: "/grandeur-spaekle-jewel",
+  build: {
+    outDir: "build"
+  }
 })
